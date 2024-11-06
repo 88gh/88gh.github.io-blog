@@ -24,6 +24,13 @@ remote_theme: just-the-docs/just-the-docs
 
 permalink: pretty
 
+# Sidebar navigation items
+nav:
+  - title: "Home"
+    url: /
+  - title: "Configuration"
+    url: /configuration/
+
 defaults:
   - scope:
       path: "docs" # an empty string here means all files in the project
