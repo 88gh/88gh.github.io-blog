@@ -19,6 +19,8 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://88gh.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # repository: just-the-docs/just-the-docs # for github-metadata
 repository: 88gh/blog # your actual GitHub repository name to use github-metadata
+# Specify the remote theme
+remote_theme: just-the-docs/just-the-docs
 
 permalink: pretty
 
@@ -189,7 +191,8 @@ plugins:
   - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-sitemap
-
+  - jekyll-remote-theme # enables remote theme usage
+  
 kramdown:
   syntax_highlighter_opts:
     block:
